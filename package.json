@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "node --test",
-    "build": "node --check src/domain.js"
+    "build": "node --check src/domain.js && node --check src/errors.js && node --check src/service.js && node --check src/server.js",
+    "start": "node src/server.js"
   }
 }
